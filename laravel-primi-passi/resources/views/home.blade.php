@@ -11,5 +11,13 @@
             Hello World
         </h1>
     </header>
+    <main>
+        <h1>
+            {{ $title }}
+        </h1>
+        <p>
+            {{ $description }}
+        </p>
+    </main>
 </body>
 </html>
